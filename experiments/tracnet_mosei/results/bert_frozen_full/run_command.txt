@@ -1,0 +1,1 @@
+python -u -m tracnet.train --data E题数据/data/附件2-数据集特征文件/aligned_50.pkl --bert E题数据/model --text-mode bert --output-dir tracnet/runs/bert_frozen_full --epochs 30 --batch-size 24 --amp

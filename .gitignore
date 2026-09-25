@@ -1,0 +1,10 @@
+*.pt
+*.pth
+*.ckpt
+*.pid
+__pycache__/
+*.py[cod]
+.pytest_cache/
+E题数据/
+model/
+data/

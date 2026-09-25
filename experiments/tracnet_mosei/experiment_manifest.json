@@ -1,0 +1,26 @@
+{
+  "experiment": "TRAC-Net aligned CMU-MOSEI",
+  "date": "2026-09-25",
+  "dataset_split_sizes": {
+    "train": 3395,
+    "valid": 728,
+    "test": 727
+  },
+  "runs": [
+    "bert_frozen_full",
+    "bert_frozen_stable"
+  ],
+  "included": [
+    "implementation scripts",
+    "portable configs",
+    "complete training logs",
+    "epoch histories",
+    "aggregate test metrics"
+  ],
+  "excluded": [
+    "model checkpoints",
+    "BERT weights",
+    "competition data",
+    "PID and cache files"
+  ]
+}
