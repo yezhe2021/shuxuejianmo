@@ -8,7 +8,12 @@
   },
   "runs": [
     "bert_frozen_full",
-    "bert_frozen_stable"
+    "bert_frozen_stable",
+    "baseline_diagnostic_seed2026/text_only",
+    "baseline_diagnostic_seed2026/simple_multimodal",
+    "accuracy_first_seed2026/simple_clean",
+    "accuracy_first_seed2026/hierarchical_clean",
+    "accuracy_first_seed2026/anchor_hierarchical_clean"
   ],
   "included": [
     "implementation scripts",

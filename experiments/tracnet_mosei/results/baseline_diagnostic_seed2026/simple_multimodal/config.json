@@ -1,0 +1,19 @@
+{
+  "baseline": "simple_multimodal",
+  "text_mode": "bert",
+  "bert_path": "E题数据/model",
+  "freeze_bert": true,
+  "bert_trainable_layers": 0,
+  "text_dim": 768,
+  "audio_dim": 74,
+  "vision_dim": 35,
+  "d_model": 128,
+  "num_heads": 4,
+  "temporal_layers": 1,
+  "feedforward_dim": 256,
+  "dropout": 0.15,
+  "max_seq_len": 50,
+  "local_window": 2,
+  "num_classes": 3,
+  "eps": 1e-06
+}

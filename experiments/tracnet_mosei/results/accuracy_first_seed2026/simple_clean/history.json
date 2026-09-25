@@ -1,0 +1,534 @@
+[
+  {
+    "epoch": 1,
+    "seconds": 12.43,
+    "train": {
+      "total": 1.0044721929540097,
+      "classification": 0.8968802342112635,
+      "three_class": 0.8968802342112635,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.4057339075165735,
+      "pearson": 0.5289035258998334
+    },
+    "valid": {
+      "accuracy": 0.5837912087912088,
+      "macro_f1": 0.46174833284843775,
+      "mae": 0.6536143882619728,
+      "pearson": 0.565363692469329
+    },
+    "valid_confusion_matrix": [
+      [
+        126,
+        3,
+        77
+      ],
+      [
+        40,
+        9,
+        135
+      ],
+      [
+        45,
+        3,
+        290
+      ]
+    ],
+    "selection_score": 0.5842529571240572,
+    "learning_rate": 0.0003
+  },
+  {
+    "epoch": 2,
+    "seconds": 9.43,
+    "train": {
+      "total": 0.8436820842850377,
+      "classification": 0.7600481696951558,
+      "three_class": 0.7600481696951558,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.3261576495854787,
+      "pearson": 0.36804766722128424
+    },
+    "valid": {
+      "accuracy": 0.6043956043956044,
+      "macro_f1": 0.500638781599255,
+      "mae": 0.6389777193071096,
+      "pearson": 0.6129010050522339
+    },
+    "valid_confusion_matrix": [
+      [
+        132,
+        6,
+        68
+      ],
+      [
+        36,
+        17,
+        131
+      ],
+      [
+        37,
+        10,
+        291
+      ]
+    ],
+    "selection_score": 0.6048962431772036,
+    "learning_rate": 0.0003
+  },
+  {
+    "epoch": 3,
+    "seconds": 10.77,
+    "train": {
+      "total": 0.7893677559536947,
+      "classification": 0.7165139919855226,
+      "three_class": 0.7165139919855226,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.2883623510494199,
+      "pearson": 0.3036258808324035
+    },
+    "valid": {
+      "accuracy": 0.6098901098901099,
+      "macro_f1": 0.526509260380228,
+      "mae": 0.64313905922041,
+      "pearson": 0.6024069159184784
+    },
+    "valid_confusion_matrix": [
+      [
+        157,
+        4,
+        45
+      ],
+      [
+        58,
+        26,
+        100
+      ],
+      [
+        60,
+        17,
+        261
+      ]
+    ],
+    "selection_score": 0.6104166191504902,
+    "learning_rate": 0.0003
+  },
+  {
+    "epoch": 4,
+    "seconds": 9.13,
+    "train": {
+      "total": 0.7289445977395689,
+      "classification": 0.6611257159793881,
+      "three_class": 0.6611257159793881,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.2690987025558109,
+      "pearson": 0.27998284806667917
+    },
+    "valid": {
+      "accuracy": 0.6277472527472527,
+      "macro_f1": 0.5968963135629802,
+      "mae": 0.6116752309857735,
+      "pearson": 0.6231845441763075
+    },
+    "valid_confusion_matrix": [
+      [
+        119,
+        38,
+        49
+      ],
+      [
+        29,
+        80,
+        75
+      ],
+      [
+        31,
+        49,
+        258
+      ]
+    ],
+    "selection_score": 0.6283441490608157,
+    "learning_rate": 0.0003
+  },
+  {
+    "epoch": 5,
+    "seconds": 9.81,
+    "train": {
+      "total": 0.6847272187891141,
+      "classification": 0.6198159051193318,
+      "three_class": 0.6198159051193318,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.2591975067388004,
+      "pearson": 0.2614363041562094
+    },
+    "valid": {
+      "accuracy": 0.6222527472527473,
+      "macro_f1": 0.5646741335498232,
+      "mae": 0.6176268676817827,
+      "pearson": 0.6310015158705643
+    },
+    "valid_confusion_matrix": [
+      [
+        151,
+        11,
+        44
+      ],
+      [
+        50,
+        44,
+        90
+      ],
+      [
+        54,
+        26,
+        258
+      ]
+    ],
+    "selection_score": 0.622817421386297,
+    "learning_rate": 0.0003
+  },
+  {
+    "epoch": 6,
+    "seconds": 9.6,
+    "train": {
+      "total": 0.6351399035520957,
+      "classification": 0.5746177568192213,
+      "three_class": 0.5746177568192213,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.240562846857897,
+      "pearson": 0.2481915337938658
+    },
+    "valid": {
+      "accuracy": 0.625,
+      "macro_f1": 0.5910112705728565,
+      "mae": 0.6448120897748395,
+      "pearson": 0.6142745024857635
+    },
+    "valid_confusion_matrix": [
+      [
+        144,
+        19,
+        43
+      ],
+      [
+        41,
+        66,
+        77
+      ],
+      [
+        51,
+        42,
+        245
+      ]
+    ],
+    "selection_score": 0.6255910112705728,
+    "learning_rate": 0.0003
+  },
+  {
+    "epoch": 7,
+    "seconds": 9.18,
+    "train": {
+      "total": 0.5769186201439777,
+      "classification": 0.5195297665998969,
+      "three_class": 0.5195297665998969,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.23004380886403608,
+      "pearson": 0.22760185305501374
+    },
+    "valid": {
+      "accuracy": 0.6126373626373627,
+      "macro_f1": 0.5882911569186079,
+      "mae": 0.6421422695915041,
+      "pearson": 0.6021136499498875
+    },
+    "valid_confusion_matrix": [
+      [
+        143,
+        30,
+        33
+      ],
+      [
+        43,
+        76,
+        65
+      ],
+      [
+        50,
+        61,
+        227
+      ]
+    ],
+    "selection_score": 0.6132256537942813,
+    "learning_rate": 0.0003
+  },
+  {
+    "epoch": 8,
+    "seconds": 10.04,
+    "train": {
+      "total": 0.5144383099297403,
+      "classification": 0.46045848779695137,
+      "three_class": 0.46045848779695137,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.2164354685326697,
+      "pearson": 0.21385450472294446
+    },
+    "valid": {
+      "accuracy": 0.592032967032967,
+      "macro_f1": 0.5718757531619653,
+      "mae": 0.6392523353909153,
+      "pearson": 0.6077965732690075
+    },
+    "valid_confusion_matrix": [
+      [
+        109,
+        52,
+        45
+      ],
+      [
+        24,
+        89,
+        71
+      ],
+      [
+        27,
+        78,
+        233
+      ]
+    ],
+    "selection_score": 0.592604842786129,
+    "learning_rate": 0.00015
+  },
+  {
+    "epoch": 9,
+    "seconds": 9.72,
+    "train": {
+      "total": 0.4168501446994258,
+      "classification": 0.36819895446090634,
+      "three_class": 0.36819895446090634,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.1955437062596771,
+      "pearson": 0.1908489318800644
+    },
+    "valid": {
+      "accuracy": 0.592032967032967,
+      "macro_f1": 0.5747475264845311,
+      "mae": 0.648065352438857,
+      "pearson": 0.5959344928248603
+    },
+    "valid_confusion_matrix": [
+      [
+        133,
+        39,
+        34
+      ],
+      [
+        42,
+        84,
+        58
+      ],
+      [
+        45,
+        79,
+        214
+      ]
+    ],
+    "selection_score": 0.5926077145594516,
+    "learning_rate": 0.00015
+  },
+  {
+    "epoch": 10,
+    "seconds": 9.0,
+    "train": {
+      "total": 0.3564008415584833,
+      "classification": 0.3105186681512376,
+      "three_class": 0.3105186681512376,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.1862516231100324,
+      "pearson": 0.1726368976310945
+    },
+    "valid": {
+      "accuracy": 0.6071428571428571,
+      "macro_f1": 0.5698870798933997,
+      "mae": 0.6652521387735321,
+      "pearson": 0.5840120993591413
+    },
+    "valid_confusion_matrix": [
+      [
+        130,
+        32,
+        44
+      ],
+      [
+        43,
+        64,
+        77
+      ],
+      [
+        41,
+        49,
+        248
+      ]
+    ],
+    "selection_score": 0.6077127442227505,
+    "learning_rate": 0.00015
+  },
+  {
+    "epoch": 11,
+    "seconds": 10.25,
+    "train": {
+      "total": 0.3094347744760379,
+      "classification": 0.2652749959904123,
+      "three_class": 0.2652749959904123,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.1798733841680305,
+      "pearson": 0.16370202160217392
+    },
+    "valid": {
+      "accuracy": 0.5906593406593407,
+      "macro_f1": 0.5752700034650293,
+      "mae": 0.6662859134222534,
+      "pearson": 0.58393488760179
+    },
+    "valid_confusion_matrix": [
+      [
+        119,
+        45,
+        42
+      ],
+      [
+        31,
+        92,
+        61
+      ],
+      [
+        37,
+        82,
+        219
+      ]
+    ],
+    "selection_score": 0.5912346106628057,
+    "learning_rate": 0.00015
+  },
+  {
+    "epoch": 12,
+    "seconds": 9.39,
+    "train": {
+      "total": 0.2709509035651113,
+      "classification": 0.22741540718141576,
+      "three_class": 0.22741540718141576,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.17733370140194893,
+      "pearson": 0.1613751087390201
+    },
+    "valid": {
+      "accuracy": 0.592032967032967,
+      "macro_f1": 0.5505975634744341,
+      "mae": 0.6665122386344432,
+      "pearson": 0.5758976460389692
+    },
+    "valid_confusion_matrix": [
+      [
+        120,
+        35,
+        51
+      ],
+      [
+        37,
+        58,
+        89
+      ],
+      [
+        31,
+        54,
+        253
+      ]
+    ],
+    "selection_score": 0.5925835645964415,
+    "learning_rate": 7.5e-05
+  },
+  {
+    "epoch": 13,
+    "seconds": 9.05,
+    "train": {
+      "total": 0.2053721026110817,
+      "classification": 0.16487549560170778,
+      "three_class": 0.16487549560170778,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.16557005509524278,
+      "pearson": 0.14765192001638278
+    },
+    "valid": {
+      "accuracy": 0.5989010989010989,
+      "macro_f1": 0.5525531605202917,
+      "mae": 0.6959666195786097,
+      "pearson": 0.5718929335120273
+    },
+    "valid_confusion_matrix": [
+      [
+        121,
+        30,
+        55
+      ],
+      [
+        40,
+        56,
+        88
+      ],
+      [
+        38,
+        41,
+        259
+      ]
+    ],
+    "selection_score": 0.5994536520616192,
+    "learning_rate": 7.5e-05
+  },
+  {
+    "epoch": 14,
+    "seconds": 10.84,
+    "train": {
+      "total": 0.17335026246875945,
+      "classification": 0.13351743240696443,
+      "three_class": 0.13351743240696443,
+      "neutral": 0.0,
+      "polarity": 0.0,
+      "regression": 0.16292392604157957,
+      "pearson": 0.14496090378559812
+    },
+    "valid": {
+      "accuracy": 0.5851648351648352,
+      "macro_f1": 0.5674031942897446,
+      "mae": 0.677793033108893,
+      "pearson": 0.5722729094836448
+    },
+    "valid_confusion_matrix": [
+      [
+        117,
+        48,
+        41
+      ],
+      [
+        31,
+        87,
+        66
+      ],
+      [
+        35,
+        81,
+        222
+      ]
+    ],
+    "selection_score": 0.5857322383591249,
+    "learning_rate": 7.5e-05
+  }
+]
